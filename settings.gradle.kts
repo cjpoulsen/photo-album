@@ -1,5 +1,5 @@
 
-rootProject.name = "photo-album"
+rootProject.name = "photo-album-parent"
 
-include("photo-album-cli")
+include("photo-album")
 include("photo-album-core")

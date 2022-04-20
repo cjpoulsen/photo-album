@@ -4,7 +4,7 @@ import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.parameters.arguments.argument
 
 class PhotoAlbum: CliktCommand() {
-    val name by argument()
+    private val name by argument()
 
     override fun run() {
         echo("Hello $name!")

@@ -18,7 +18,6 @@ class PhotoAlbumRepositoryTests: DescribeSpec({
     lateinit var photoAlbumRepository: PhotoAlbumRepository
 
     lateinit var actual: List<Photo>
-    lateinit var expected: List<Photo>
 
     val firstPhoto = Photo(1L, 1L, "First Photo", "www.photos.com/photos/1", "www.photos.com/thumbnails/1")
     val secondPhoto = Photo(2L, 2L, "Second Photo", "www.photos.com/photos/2", "www.photos.com/thumbnails/2")
